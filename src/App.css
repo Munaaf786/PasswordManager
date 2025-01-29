@@ -1,0 +1,344 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-color: #9ba9eb;
+  min-height: 100vh;
+  padding: 16px;
+}
+
+.app-logo {
+  height: 56px;
+}
+
+.input-section {
+  background-color: #5763a5;
+  padding: 20px;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.pswd-manager-sm-image {
+  width: 100%;
+  height: 50%;
+  display: block;
+}
+.pswd-manager-lg-image {
+  width: 48%;
+  max-width: 360px;
+  height: 360px;
+  display: none;
+}
+
+.input-form {
+  background-color: #454f84;
+  padding: 16px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.add-pswd-heading {
+  font-size: 24px;
+  color: #f8fafc;
+}
+
+.input-field-container {
+  height: 48px;
+  width: 100%;
+  background-color: #f8fafc;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+.input-logos-container {
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+}
+
+.input-logos {
+  height: 100%;
+  width: 100%;
+}
+
+.input-field {
+  background-color: transparent;
+  height: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  color: #64748b;
+  border: none;
+  border-left: 1px solid #b6c3ca;
+  flex-grow: 1;
+  padding: 0 10px;
+  outline: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.add-button {
+  height: 40px;
+  width: 100px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    padding: 48px;
+  }
+
+  .app-logo {
+    height: 64px;
+  }
+
+  .pswd-manager-sm-image {
+    display: none;
+  }
+
+  .pswd-manager-lg-image {
+    display: block;
+  }
+
+  .input-form {
+    height: 360px;
+  }
+
+  .input-section {
+    flex-direction: row;
+    padding: 28px;
+  }
+}
+
+.password-list-section {
+  background-color: #5763a5;
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 12px;
+}
+
+.section-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.your-pswd-heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.heading-text {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.pswd-count {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #f8fafc;
+  padding: 0 10px;
+  border-radius: 75px;
+}
+
+.search-container {
+  background-color: #f8fafc;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.search-image-container {
+  width: 56px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+}
+
+.search-image {
+  height: 100%;
+}
+
+.search-input {
+  height: 100%;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 600;
+  color: #64748b;
+  border: none;
+  border-left: 1px solid #b6c3ca;
+  padding: 0 10px;
+  outline: none;
+}
+
+.separator {
+  border: 1px solid #9ba9eb;
+  width: 100%;
+  margin: 16px 0;
+}
+
+.show-pswd-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
+
+.show-pswd-label {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+@media (min-width: 767px) {
+  .password-list-section {
+    padding: 28px;
+  }
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-image {
+  width: 100%;
+  max-width: 480px;
+}
+
+.no-passwords {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.passwords-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.password-list-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #9ba9eb;
+  border-radius: 4px;
+  padding: 12px 16px;
+  min-width: 300px;
+  margin: 0 20px 20px 0;
+}
+
+.profile {
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 12px;
+}
+
+.yellow {
+  background-color: #f59e0b;
+}
+
+.darkGreen {
+  background-color: #10b981;
+}
+
+.orange {
+  background-color: #10b981;
+}
+
+.lightGreen {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.blue {
+  background-color: #0ea5e9;
+}
+
+.content {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.website {
+  font-size: 20px;
+}
+
+.stars {
+  height: 18px;
+  width: 140px;
+}
+
+.del-btn {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px;
+  margin-left: auto;
+}
+
+.del-image {
+  height: 100%;
+}
