@@ -1,6 +1,6 @@
-In this project, let's build a **Password Manager** by applying the concepts we have learned till now.
+In this project, I built a **Password Manager** by applying the concepts I have learned till now.
 
-### Refer to the image below:
+### Output is as per the image below:
 
 <br/>
 <div style="text-align: center;">
@@ -39,11 +39,11 @@ In this project, let's build a **Password Manager** by applying the concepts we 
 
 The app must have the following functionalities
 
-- Initially, the website input, username input, and password input should be empty and [No Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-no-passwords-lg-output.png) should be displayed
+- Initially, the website input, username input, and password input are empty and [No Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-no-passwords-lg-output.png) is displayed
 - When non-empty values are provided for the website, username, and password and the **Add** button is clicked,
-  - A new password item should be added to the list of passwords
-  - The passwords count should be incremented by one
-  - The **stars image** should be displayed in the password items instead of the passwords
+  - A new password item is added to the list of passwords
+  - The passwords count is incremented by one
+  - The **stars image** is displayed in the password items instead of the passwords
   - The value of the input fields for website, username, and password should be updated to their initial values
   - When the **Show Password** is checked, then the password should be displayed instead of the **stars image**
 - When a non-empty value is provided in the search input field, then password items whose website is matched with the search input value irrespective of the case should be displayed
