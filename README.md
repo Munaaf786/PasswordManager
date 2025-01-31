@@ -34,7 +34,7 @@ In this project, I built a **Password Manager** by applying the concepts I have 
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionality added</summary>
 <br/>
 
 The app must have the following functionalities
@@ -42,31 +42,16 @@ The app must have the following functionalities
 - Initially, the website input, username input, and password input are empty and [No Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-no-passwords-lg-output.png) is displayed
 - When non-empty values are provided for the website, username, and password and the **Add** button is clicked,
   - A new password item is added to the list of passwords
-  - The passwords count is incremented by one
+  - The password count is incremented by one
   - The **stars image** is displayed in the password items instead of the passwords
-  - The value of the input fields for website, username, and password should be updated to their initial values
+  - The value of the input fields for the website, username, and password should be updated to their initial values
   - When the **Show Password** is checked, then the password should be displayed instead of the **stars image**
-- When a non-empty value is provided in the search input field, then password items whose website is matched with the search input value irrespective of the case should be displayed
-- When a non-empty value is provided in the search input field, and if the website of any password item does not match the value given in the search input, then [No Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-no-passwords-lg-output.png) should be displayed
+- When a non-empty value is provided in the search input field, then password items whose website is matched with the search input value irrespective of the case are displayed
+- When a non-empty value is provided in the search input field, and if the website of any password item does not match the value given in the search input, then [No Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-no-passwords-lg-output.png) is displayed
 - When the delete button of a password item is clicked,
-  - The respective password item should be deleted from the list of passwords
-  - The passwords count should be decremented by one
-- When all password items are deleted, then [No Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-no-passwords-lg-output.png) should be displayed
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- HTML input element for website should have the placeholder as **Enter Website**
-- HTML input element for username should have the placeholder as **Enter Username**
-- HTML input element for password should have the placeholder as **Enter Password**
-- The delete button for each password item should have the data-testid as **delete**
+  - The respective password item is deleted from the list of passwords
+  - The password count is decremented by one
+- When all password items are deleted, then [No Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-no-passwords-lg-output.png) is displayed
 </details>
 
 ### Resources
@@ -74,16 +59,16 @@ The app must have the following functionalities
 <details>
 <summary>Image URLs</summary>
 
-- [https://assets.ccbp.in/frontend/react-js/password-manager-logo-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-logo-img.png) alt should be **app logo**
-- [https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png) alt should be **password manager**
-- [https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png) alt should be **password manager**
-- [https://assets.ccbp.in/frontend/react-js/password-manager-website-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-website-img.png) alt should be **website**
-- [https://assets.ccbp.in/frontend/react-js/password-manager-username-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-username-img.png) alt should be **username**
-- [https://assets.ccbp.in/frontend/react-js/password-manager-password-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-password-img.png) alt should be **password**
-- [https://assets.ccbp.in/frontend/react-js/password-manager-search-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-search-img.png) alt should be **search**
-- [https://assets.ccbp.in/frontend/react-js/no-passwords-img.png](https://assets.ccbp.in/frontend/react-js/no-passwords-img.png) alt should be **no passwords**
-- [https://assets.ccbp.in/frontend/react-js/password-manager-stars-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-stars-img.png) alt should be **stars**
-- [https://assets.ccbp.in/frontend/react-js/password-manager-delete-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-delete-img.png) alt should be **delete**
+- [https://assets.ccbp.in/frontend/react-js/password-manager-logo-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-logo-img.png) alt value is **app logo**
+- [https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png) alt value is **password manager**
+- [https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png) alt value is **password manager**
+- [https://assets.ccbp.in/frontend/react-js/password-manager-website-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-website-img.png) alt value is **website**
+- [https://assets.ccbp.in/frontend/react-js/password-manager-username-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-username-img.png) alt value is **username**
+- [https://assets.ccbp.in/frontend/react-js/password-manager-password-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-password-img.png) alt value is **password**
+- [https://assets.ccbp.in/frontend/react-js/password-manager-search-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-search-img.png) alt value is **search**
+- [https://assets.ccbp.in/frontend/react-js/no-passwords-img.png](https://assets.ccbp.in/frontend/react-js/no-passwords-img.png) alt value is **no passwords**
+- [https://assets.ccbp.in/frontend/react-js/password-manager-stars-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-stars-img.png) alt value is **stars**
+- [https://assets.ccbp.in/frontend/react-js/password-manager-delete-img.png](https://assets.ccbp.in/frontend/react-js/password-manager-delete-img.png) alt value is **delete**
 </details>
 
 <details>
@@ -118,9 +103,8 @@ The app must have the following functionalities
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+### Conclusion
+
+Thanks for checking out my Password Manager! This project showcases my skills in React, with features like password management, search, and masking. Feel free to explore, fork, or contribute!
+
+Happy coding! 🚀
